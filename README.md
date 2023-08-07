@@ -46,6 +46,7 @@ Caso você deseje implementar as legendas é necessário de um objeto chamado de
 ![image](https://github.com/ItaloDias-stack/flutter-movie-player/assets/56097945/42d82d9b-d4a4-43a9-b9b3-9a1e5b57c0ea)
 
 Caso deseje trocar o tipo da legenda, a lib dá suporte aos tipo *webvtt* e *srt* e para realizar a troca da legenda é necessário chamar a função *updateSubtitleUrl*
+
 Obs.: Caso você queira desativar a legenda para ativar depois não é uma boa deixar o controller sem uma legenda, pois fica dando um erro no console,então eu chamo esse arquivo de legenda: [legenda](https://github.com/ItaloDias-stack/empty-subtitle/blob/main/empty-subtitle.srt?raw=true).
 
 
