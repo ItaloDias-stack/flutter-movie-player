@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_movie_player/presentation/views/hello_world/hello_world_screen.dart';
 import 'package:flutter_movie_player/presentation/views/player_screen/player_screen.dart';
 import 'package:flutter_movie_player/utils/routes.dart';
 import 'package:flutter_movie_player/utils/setup_get_it.dart';
@@ -49,6 +50,16 @@ class _MyHomePageState extends State<MyHomePage> {
               },
               child: const Text("Player com legenda"),
             ),
+            const SizedBox(height: 25),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(
+                  context,
+                  HelloWorldScreen.routeName,
+                );
+              },
+              child: const Text("Exemplo básico do uso da lib"),
+            )
           ],
         ),
       ),

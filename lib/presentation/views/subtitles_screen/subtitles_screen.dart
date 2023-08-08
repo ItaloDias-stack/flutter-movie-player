@@ -101,11 +101,9 @@ class _SubtitlesScreenState extends State<SubtitlesScreen> {
 }
 
 class LanguageContainer extends StatelessWidget {
-  //final AudioLanguage? audioLanguage;
   final MovieSubtitle subtitle;
   LanguageContainer({
     super.key,
-    // this.audioLanguage,
     required this.subtitle,
   });
 
