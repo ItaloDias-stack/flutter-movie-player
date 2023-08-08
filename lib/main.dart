@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_movie_player/presentation/views/player_screen/player_screen.dart';
 import 'package:flutter_movie_player/utils/routes.dart';
 import 'package:flutter_movie_player/utils/setup_get_it.dart';
 
 void main() {
-  WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
+  WidgetsFlutterBinding.ensureInitialized();
   setupGetIt();
   runApp(const MyApp());
 }
@@ -34,9 +35,22 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [],
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(
+                  context,
+                  PlayerScreen.routeName,
+                );
+              },
+              child: const Text("Player com legenda"),
+            ),
+          ],
+        ),
       ),
     );
   }

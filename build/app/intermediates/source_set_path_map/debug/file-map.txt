@@ -1,0 +1,16 @@
+com.example.flutter_movie_player.app-jetified-annotation-experimental-1.1.0-0 /home/italodias/.gradle/caches/transforms-3/424fe90f0bd6d50b9ed38cb53548737f/transformed/jetified-annotation-experimental-1.1.0/res
+com.example.flutter_movie_player.app-jetified-exoplayer-core-2.18.7-1 /home/italodias/.gradle/caches/transforms-3/56d84ec65b2c6356d4e25ff484e3acab/transformed/jetified-exoplayer-core-2.18.7/res
+com.example.flutter_movie_player.app-jetified-window-java-1.0.0-beta04-2 /home/italodias/.gradle/caches/transforms-3/5ddc55be9a1f9ca3021e908092377266/transformed/jetified-window-java-1.0.0-beta04/res
+com.example.flutter_movie_player.app-core-1.7.0-3 /home/italodias/.gradle/caches/transforms-3/8256846774e8e57b64cf1d527f044d82/transformed/core-1.7.0/res
+com.example.flutter_movie_player.app-lifecycle-runtime-2.3.1-4 /home/italodias/.gradle/caches/transforms-3/8492779f5596dce1dd88da555eeb00b6/transformed/lifecycle-runtime-2.3.1/res
+com.example.flutter_movie_player.app-jetified-window-1.0.0-beta04-5 /home/italodias/.gradle/caches/transforms-3/beb1df14a36789fd46f1fa73f36b9595/transformed/jetified-window-1.0.0-beta04/res
+com.example.flutter_movie_player.app-debug-6 /home/italodias/Documentos/flutter_projects/flutter-movie-player/android/app/src/debug/res
+com.example.flutter_movie_player.app-main-7 /home/italodias/Documentos/flutter_projects/flutter-movie-player/android/app/src/main/res
+com.example.flutter_movie_player.app-pngs-8 /home/italodias/Documentos/flutter_projects/flutter-movie-player/build/app/generated/res/pngs/debug
+com.example.flutter_movie_player.app-resValues-9 /home/italodias/Documentos/flutter_projects/flutter-movie-player/build/app/generated/res/resValues/debug
+com.example.flutter_movie_player.app-rs-10 /home/italodias/Documentos/flutter_projects/flutter-movie-player/build/app/generated/res/rs/debug
+com.example.flutter_movie_player.app-mergeDebugResources-11 /home/italodias/Documentos/flutter_projects/flutter-movie-player/build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.example.flutter_movie_player.app-mergeDebugResources-12 /home/italodias/Documentos/flutter_projects/flutter-movie-player/build/app/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.example.flutter_movie_player.app-merged_res-13 /home/italodias/Documentos/flutter_projects/flutter-movie-player/build/app/intermediates/merged_res/debug
+com.example.flutter_movie_player.app-packaged_res-14 /home/italodias/Documentos/flutter_projects/flutter-movie-player/build/video_player_android/intermediates/packaged_res/debug
+com.example.flutter_movie_player.app-packaged_res-15 /home/italodias/Documentos/flutter_projects/flutter-movie-player/build/wakelock/intermediates/packaged_res/debug

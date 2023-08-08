@@ -1,0 +1,112 @@
+// **************************************************************************
+// StoreGenerator
+// **************************************************************************
+
+// ignore_for_file: non_constant_identifier_names, unnecessary_brace_in_string_interps, unnecessary_lambdas, prefer_expression_function_bodies, lines_longer_than_80_chars, avoid_as, avoid_annotating_with_dynamic, no_leading_underscores_for_local_identifiers
+
+mixin _$PlayerStore on _PlayerStoreBase, Store {
+  late final _$flickManagerAtom =
+      Atom(name: '_PlayerStoreBase.flickManager', context: context);
+
+  @override
+  FlickManager? get flickManager {
+    _$flickManagerAtom.reportRead();
+    return super.flickManager;
+  }
+
+  @override
+  set flickManager(FlickManager? value) {
+    _$flickManagerAtom.reportWrite(value, super.flickManager, () {
+      super.flickManager = value;
+    });
+  }
+
+  late final _$movieAtom =
+      Atom(name: '_PlayerStoreBase.movie', context: context);
+
+  @override
+  Movie get movie {
+    _$movieAtom.reportRead();
+    return super.movie;
+  }
+
+  @override
+  set movie(Movie value) {
+    _$movieAtom.reportWrite(value, super.movie, () {
+      super.movie = value;
+    });
+  }
+
+  late final _$selectedSubtitleAtom =
+      Atom(name: '_PlayerStoreBase.selectedSubtitle', context: context);
+
+  @override
+  MovieSubtitle get selectedSubtitle {
+    _$selectedSubtitleAtom.reportRead();
+    return super.selectedSubtitle;
+  }
+
+  @override
+  set selectedSubtitle(MovieSubtitle value) {
+    _$selectedSubtitleAtom.reportWrite(value, super.selectedSubtitle, () {
+      super.selectedSubtitle = value;
+    });
+  }
+
+  late final _$subtitleControllerAtom =
+      Atom(name: '_PlayerStoreBase.subtitleController', context: context);
+
+  @override
+  SubtitleController get subtitleController {
+    _$subtitleControllerAtom.reportRead();
+    return super.subtitleController;
+  }
+
+  @override
+  set subtitleController(SubtitleController value) {
+    _$subtitleControllerAtom.reportWrite(value, super.subtitleController, () {
+      super.subtitleController = value;
+    });
+  }
+
+  late final _$subtitlesAtom =
+      Atom(name: '_PlayerStoreBase.subtitles', context: context);
+
+  @override
+  ObservableList<MovieSubtitle> get subtitles {
+    _$subtitlesAtom.reportRead();
+    return super.subtitles;
+  }
+
+  @override
+  set subtitles(ObservableList<MovieSubtitle> value) {
+    _$subtitlesAtom.reportWrite(value, super.subtitles, () {
+      super.subtitles = value;
+    });
+  }
+
+  late final _$_PlayerStoreBaseActionController =
+      ActionController(name: '_PlayerStoreBase', context: context);
+
+  @override
+  dynamic updateSubtitleUrl({required MovieSubtitle subtitleLanguage}) {
+    final _$actionInfo = _$_PlayerStoreBaseActionController.startAction(
+        name: '_PlayerStoreBase.updateSubtitleUrl');
+    try {
+      return super.updateSubtitleUrl(subtitleLanguage: subtitleLanguage);
+    } finally {
+      _$_PlayerStoreBaseActionController.endAction(_$actionInfo);
+    }
+  }
+
+  @override
+  String toString() {
+    return '''
+flickManager: ${flickManager},
+movie: ${movie},
+selectedSubtitle: ${selectedSubtitle},
+subtitleController: ${subtitleController},
+subtitles: ${subtitles}
+    ''';
+  }
+}

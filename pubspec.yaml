@@ -11,16 +11,17 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.2
 
-  get_it: 7.2.0
-  mobx: 2.1.4
+  get_it: 7.6.0
+  mobx: 2.2.0
   flutter_mobx: 2.0.6+5
 
-  retrofit_generator: 4.2.0
-  mobx_codegen: 2.1.1
-  build_runner: 2.3.2
+  retrofit_generator: 7.0.8
+  mobx_codegen: 2.3.0
+  build_runner: 2.4.6
   subtitle_wrapper_package: 2.1.1
   flick_video_player: 0.5.0
-  video_player: 2.6.1
+  video_player: 2.7.0
+  csslib: 0.17.0
   
 dev_dependencies:
   flutter_test:

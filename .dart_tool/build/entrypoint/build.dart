@@ -1,8 +1,8 @@
 // ignore_for_file: directives_ordering
 // ignore_for_file: no_leading_underscores_for_library_prefixes
 import 'package:build_runner_core/build_runner_core.dart' as _i1;
-import 'package:mobx_codegen/builder.dart' as _i2;
-import 'package:retrofit_generator/retrofit_generator.dart' as _i3;
+import 'package:retrofit_generator/retrofit_generator.dart' as _i2;
+import 'package:mobx_codegen/builder.dart' as _i3;
 import 'package:source_gen/builder.dart' as _i4;
 import 'dart:isolate' as _i5;
 import 'package:build_runner/build_runner.dart' as _i6;
@@ -10,16 +10,16 @@ import 'dart:io' as _i7;
 
 final _builders = <_i1.BuilderApplication>[
   _i1.apply(
-    r'mobx_codegen:mobx_generator',
-    [_i2.storeGenerator],
-    _i1.toDependentsOf(r'mobx_codegen'),
+    r'retrofit_generator:retrofit_generator',
+    [_i2.retrofitBuilder],
+    _i1.toDependentsOf(r'retrofit_generator'),
     hideOutput: true,
     appliesBuilders: const [r'source_gen:combining_builder'],
   ),
   _i1.apply(
-    r'retrofit_generator:retrofit',
-    [_i3.retrofitBuilder],
-    _i1.toDependentsOf(r'retrofit_generator'),
+    r'mobx_codegen:mobx_generator',
+    [_i3.storeGenerator],
+    _i1.toDependentsOf(r'mobx_codegen'),
     hideOutput: true,
     appliesBuilders: const [r'source_gen:combining_builder'],
   ),
