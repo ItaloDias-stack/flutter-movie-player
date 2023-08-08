@@ -337,6 +337,7 @@ forwardSeekIcon: const SizedBox.shrink(),
 backwardSeekIcon: const SizedBox.shrink(),
 ```
 
+![8dee51e5-2c7c-476f-a683-d2f10cb675fd](https://github.com/ItaloDias-stack/flutter-movie-player/assets/56097945/bd987c3c-7572-4e68-be1f-b38c6307eb7d)
 
 ### Legendas
 
@@ -500,6 +501,7 @@ class LanguageContainer extends StatelessWidget {
   }
 }
 ```
+![98b4e547-be03-4842-a798-cd11e4c168a7](https://github.com/ItaloDias-stack/flutter-movie-player/assets/56097945/4bd76da8-dd9b-45d1-9fe2-a2437f6a88dd)
 
 Nota: nesse repositório é encontrado todos os códigos usados
 - Versão do flutter 3.10.5
